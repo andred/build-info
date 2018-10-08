@@ -63,6 +63,8 @@ public class SpecsHelper {
         ConsumerRunnableBase[] consumerRunnables = new ConsumerRunnableBase[] {
                 new SpecDeploymentConsumer(client),
                 new SpecDeploymentConsumer(client),
+                new SpecDeploymentConsumer(client),
+                new SpecDeploymentConsumer(client),
                 new SpecDeploymentConsumer(client)
         };
         // Create the deployment executor
